@@ -13,6 +13,12 @@ sleep 3
 clear
 echo -e "WiFiBroot Auto Installer & Dependences 2018"
 echo
+echo -e "Instalando python en el caso de no estar instalado.."
+sudo apt-get install python
+sleep 3
+clear
+echo -e "WiFiBroot Auto Installer & Dependences 2018"
+echo
 echo -e "Instalando dependencias necesarias para el crack WPA..."
 sudo apt install python-pbkdf2
 sleep 3
